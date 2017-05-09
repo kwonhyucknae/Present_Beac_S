@@ -15,6 +15,6 @@ height:100px;
 </style>
 </head>
 <body>
-<button class="btn" id="btn" type=submit><img src="../images/check.PNG"></button>
+<button class="btn" id="btn" type=submit><img src="../images/pic01.jpg"></button>
 </body>
 </html>
