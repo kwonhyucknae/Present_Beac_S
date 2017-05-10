@@ -30,7 +30,7 @@ try
 	
 	conn=DriverManager.getConnection(jdbc_url,"root","wnssogur1!");
 	
-	String sql="select Course_Name,Now_people,Max_people,Course_Time,Hakjum From course WHERE sort = 1"; 
+	String sql="select Course_Name,Now_people,Max_people,Course_Time,Hakjum From course WHERE sort = 0"; 
 	
 	pstmt=conn.prepareStatement(sql);
 	//pstmt.setString(1,request.getParameter("Course_Name"));
