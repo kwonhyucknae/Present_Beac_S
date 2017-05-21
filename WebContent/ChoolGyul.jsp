@@ -64,8 +64,9 @@
 										</section>
 										<hr />
 										<section>
-											<%@ include file="/JSPConnection/LectureContents.jsp" %>
 											<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+											<%@ include file="/JSPConnection/LectureContents.jsp" %>
+											
 										</section>
 									</section>
 

@@ -25,7 +25,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li>
+							<!--  <li>
 								<a href="#">Layouts</a>
 								<ul>
 									<li><a href="left-sidebar.html">Left Sidebar</a></li>
@@ -42,8 +42,8 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button special">Sign Up</a></li>
+							<li><a href="elements.html">Elements</a></li>-->
+							<li><a href="#" class="button special">Log Out</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -52,8 +52,8 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Left Sidebar</h2>
-							<p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p>
+							<h2>환영합니다</h2>
+							<p>교수 포탈 페이지 입니다</p>
 						</header>
 						<div class="row 150%">
 							<div class="4u 12u$(medium)">
@@ -87,20 +87,14 @@
 
 								<!-- Content -->
 									<section id="content">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<%@include file="Webpage/Imagetest.jsp" %>
+										<a href="#" class="image fit"><img src="images/pen.jpg" alt="" /></a>
+										<!--  <%@include file="Webpage/Imagetest.jsp" %>-->
 										
-										<h3>Dolore Amet Consequat</h3>
-										<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
-										<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique.</p>
-										<h3>Sed Magna Ornare</h3>
-										<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
+										<h3>학생들의 출결 현황을 볼 수 있습니다.</h3>
 										<ul>
-											<li>Faucibus orci lobortis ac adipiscing integer.</li>
-											<li>Col accumsan arcu mi aliquet placerat.</li>
-											<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-											<li>Blandit massa non blandit tempor interdum.</li>
-											<li>Lacinia mattis arcu nascetur lobortis.</li>
+											<li>먼저, 진행하고 있는 강의를 왼쪽 메뉴에서 선택해 주세요</li>
+											<li>왼쪽 메뉴의 두번째 버튼을 누르면</li>
+											<li>학생들의 출결 현황을 볼 수 있습니다.</li>
 										</ul>
 									</section>
 

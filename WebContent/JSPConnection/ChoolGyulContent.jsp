@@ -4,8 +4,50 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<title>Left Sidebar - Landed by HTML5 UP</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
+<style>
+
+		#content2{
+		//position:absolute;
+		left:40%;
+		margin-left:200px;
+		}
+		.green_window {
+		display: inline-block;
+		width: 366px; height: 34px;
+		border: 3px solid #2db400;
+		background: white;
+		}
+		.input_text {
+		width: 348px; height: 21px;
+		margin: 6px 0 0 9px;
+		border: 0;
+		line-height: 21px;
+		font-weight: bold;
+		font-size: 16px;
+		outline: none;
+		}
+	.sch_smit {
+		width: 54px; height: 40px;
+		margin: 0; border: 0;
+		vertical-align: top;
+		background: #22B600;
+		color: white;
+		font-weight: bold;
+		border-radius: 1px;
+		cursor: pointer;
+	}
+	.sch_smit:hover {
+		background: #56C82C;
+	}
+		</style>
 </head>
 <body>
 <%
@@ -31,7 +73,9 @@ try
 	
 	while(rs.next())
 	{
-		out.println(rs.getString(1)+" "+rs.getString(2)+" "+rs.getString(3)+" "+rs.getString(4)+" "+rs.getString(5)+"<BR>");
+		
+		//out.println(rs.getString(1)+" "+rs.getString(2)+" "+rs.getString(3)+" "+rs.getString(4)+" "+rs.getString(5)+"<BR>");
+		%><sapn style="color:white"><%= rs.getString(1) %></sapn><% 
 		i++;
 	}
 	
