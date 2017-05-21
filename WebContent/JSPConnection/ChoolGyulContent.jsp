@@ -75,7 +75,24 @@ try
 	{
 		
 		//out.println(rs.getString(1)+" "+rs.getString(2)+" "+rs.getString(3)+" "+rs.getString(4)+" "+rs.getString(5)+"<BR>");
-		%><sapn style="color:white"><%= rs.getString(1) %></sapn><% 
+		%>
+		<table>
+		<tr>
+		<th>이름</th>
+		<th>출석</th>
+		<th>지각</th>
+		<th>결석</th>
+		<th>조퇴</th>
+		</tr>
+		<tr>
+		<td><sapn style="color:white"><%= rs.getString(1) %></sapn></td>
+		<td><img src="../images/asdzxc.PNG"/><span style="color:white"><%=rs.getString(2) %>회</span></td>
+		<td><img src="../images/wlrkr.PNG"/><span style="color:white"><%=rs.getString(3) %>회</span></td>
+		<td><img src="../images/ruftjr.PNG"/><span style="color:white"><%=rs.getString(4) %>회</span></td>
+		<td><img src="../images/whxhl.PNG"/><span style="color:white"><%=rs.getString(5) %>회</span></td>
+		<tr>
+		</table>
+		<% 
 		i++;
 	}
 	
